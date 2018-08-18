@@ -478,7 +478,7 @@ client.on('message', message => {
 
 if (message.content.startsWith(PREFIX + 'setstream')) {
   client.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
-	 console.log('test' + argresult);
+	 console.log('Shop Prestige ..' + argresult);
     message.channel.sendMessage(`Streaming: **${argresult}`)
 }
 
